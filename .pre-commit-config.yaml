@@ -4,3 +4,4 @@ repos:
     hooks:
       - id: ruff # Runs the linter
         args: [ --fix ] # Optionally enable automatic fixes
+      - id: ruff-format # Runs the formatter
